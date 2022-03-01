@@ -19,3 +19,11 @@ Project Week 2022 Mixed Reality
 - add an input action manager script to the WebGL Rig, set its size to 1 and assign the action map we created to it
 - and if you test now it does not work at all
 - This does not work perfectly at all but allows for some testing without the vr headset
+
+## info
+
+1. Index
+
+1. Links of intrest
+- intro to unity VR: https://www.youtube.com/watch?v=gGYtahQjmWQ&ab_channel=Valem
+- how to make beatsaber in 10 min in unity : https://www.youtube.com/watch?v=gh4k0Q1Pl7E&ab_channel=Valem
