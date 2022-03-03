@@ -17,8 +17,8 @@ Project Week 2022 Mixed Reality
 - click save asset
 - add the actions to our script, and add the camera (playehead) as the transform
 - add an input action manager script to the WebGL Rig, set its size to 1 and assign the action map we created to it
-- and if you test now it does not work at all
 - This does not work perfectly at all but allows for some testing without the vr headset
+- The problem seems to occur when moving along both the y and x axis, it works fine when trying to move only one axis.
 
 ## info
 
