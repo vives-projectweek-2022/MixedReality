@@ -17,9 +17,9 @@ public class Saber : MonoBehaviour
     void Update()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.right, out hit, 1, layer))
+        if (Physics.Raycast(transform.position, transform.forward, out hit, 1f, layer))
         {
-            if (Vector3.Angle(transform.position - PreviousPos, hit.transform.up) > 70)
+            if (Vector3.Angle(transform.position - PreviousPos, hit.transform.up) > 130)
             {
                 Destroy(hit.transform.gameObject);
             }
