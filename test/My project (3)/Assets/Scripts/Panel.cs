@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Panel: MonoBehaviour
 {
-    private Canvas canvas = null;
+    public Canvas canvas;
     private MenuManager menuManager = null;
 
     private void Awake()
     {
-        canvas = GetComponent<Canvas>();
+       canvas = GetComponent<Canvas>();
     }
 
     public void Setup(MenuManager menuManager)
