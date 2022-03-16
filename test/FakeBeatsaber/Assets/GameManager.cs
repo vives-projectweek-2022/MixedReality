@@ -14,14 +14,15 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public int currentScore;
-    public int scorePerNote = 10;
+    public int scorePerNote = 100;
 
     public TextMesh scoreText;
     public TextMesh multiplierText;
 
-    public int currentMultiplier = 1;
-    public int multiplierTracker;
-    public int[] multiplierThresholds = {2, 4, 8, 16, 32, 64, 128, 256};
+    private int currentMultiplier = 1;
+    private int multiplierTracker = 0;
+    private int[] multiplierThresholds = { 2, 4, 6, 8, 10, 14, 18, 22, 26, 30, 36, 42, 48, 58, 68, 78, 90, 102, 122, 162 };
+
 
     // Start is called before the first frame update
     void Start()
@@ -73,6 +74,5 @@ public class GameManager : MonoBehaviour
         multiplierTracker = 0;
 
         multiplierText.text = "multiplier: x" + currentMultiplier;
-
     }
 }
