@@ -22,6 +22,7 @@ public class Arrow_Detecter : MonoBehaviour
             if (canBePressed)
             {
                 gameObject.SetActive(false);
+                GameManager.instance.NoteHit();
             }
         }
     }
@@ -39,6 +40,8 @@ public class Arrow_Detecter : MonoBehaviour
         if (other.tag == "Activator")
         {
             canBePressed = false;
+
+            GameManager.instance.NoteMissed();
         }
     }
 }

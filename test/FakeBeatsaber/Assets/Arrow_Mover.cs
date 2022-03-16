@@ -17,7 +17,7 @@ public class Arrow_Mover : MonoBehaviour
     {
         if (!hasStarted)
         {
-            if (Input.anyKeyDown) hasStarted = true;
+            //if (Input.anyKeyDown) hasStarted = true;
         }
         else
         {
