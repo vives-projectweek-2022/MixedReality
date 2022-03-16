@@ -10,16 +10,16 @@ public class Saber : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.right, out hit, 1, layer))
+        if (Physics.Raycast(transform.position, transform.forward, out hit, 1f, layer))
         {
-            if (Vector3.Angle(transform.position - PreviousPos, hit.transform.up) > 90)
+            if (Vector3.Angle(transform.position - PreviousPos, hit.transform.up) > 130)
             {
                 Destroy(hit.transform.gameObject);
             }

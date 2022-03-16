@@ -24,6 +24,7 @@ public class Spawner : MonoBehaviour
             cube.transform.localPosition = Vector3.zero;
             cube.transform.Rotate(transform.right, 90 * Random.Range(0, 4));
             timer -= beat;
+            Destroy(cube.gameObject, 15f);
         }
 
         timer += Time.deltaTime;
