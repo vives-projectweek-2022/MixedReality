@@ -10,7 +10,7 @@ public class CameraVR : MonoBehaviour
     {
         if (backCam == null)
         {
-            backCam = new WebCamTexture();
+            backCam = new WebCamTexture(1920, 1080, 60);
         }
 
         GetComponent<Renderer>().material.mainTexture = backCam;
