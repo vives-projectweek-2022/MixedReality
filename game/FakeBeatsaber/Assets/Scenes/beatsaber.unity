@@ -774,7 +774,6 @@ GameObject:
   m_Component:
   - component: {fileID: 308269029}
   - component: {fileID: 308269030}
-  - component: {fileID: 308269031}
   m_Layer: 0
   m_Name: VR RIg
   m_TagString: Untagged
@@ -814,20 +813,6 @@ MonoBehaviour:
   m_CameraFloorOffsetObject: {fileID: 1365959802}
   m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.1176
---- !u!114 &308269031
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308269028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e3a0ff0ba3eea34f834a649367c4e76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  background: {fileID: 0}
-  fit: {fileID: 0}
 --- !u!1 &373745596
 GameObject:
   m_ObjectHideFlags: 0
