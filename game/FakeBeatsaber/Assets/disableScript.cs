@@ -5,6 +5,7 @@ using UnityEngine;
 public class disableScript : MonoBehaviour
 {
     public GameObject camera;
+    public GameObject pauseMenu;
     //public GameObject camera;
     //private bool state = true;
     // Start is called before the first frame update
@@ -19,7 +20,11 @@ public class disableScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             camera.SetActive(!camera.activeSelf);
-            Debug.Log("set");
+            //Debug.Log("set");
+        }
+        else if (Input.GetKeyDown(KeyCode.A))
+        {
+            pauseMenu.SetActive(!pauseMenu.activeSelf);
         }
         //Debug.Log("Update is called");
     }
