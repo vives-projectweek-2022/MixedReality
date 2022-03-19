@@ -33,6 +33,10 @@ public class Arrow_Detecter : MonoBehaviour
         {
             canBePressed = true;
         }
+        if (other.tag == "Despawner")
+        {
+            Destroy(this);
+        }
     }
 
     private void OnTriggerExit(Collider other)
