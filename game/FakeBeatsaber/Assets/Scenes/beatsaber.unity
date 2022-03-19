@@ -150,8 +150,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3909663}
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -7.65, y: -0.21, z: 2.55}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalPosition: {x: -7, y: -0.25, z: 2.75}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children: []
   m_Father: {fileID: 2040221731}
   m_RootOrder: 2
@@ -221,6 +221,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  hitEffect: {fileID: 2056586466067654810, guid: 26b16430dc16cfc43a46ff00e14a0393, type: 3}
+  goodEffect: {fileID: 9031509782495498579, guid: a986d1586b075e441a984272ca385435, type: 3}
+  perfectEffect: {fileID: 5268398315166762242, guid: d94fb1dc39d71c847a03ea2788ac1447, type: 3}
+  missEffect: {fileID: 3867264448692532887, guid: 2852e97c80a83af4da43f038600700d9, type: 3}
 --- !u!65 &3909667
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -261,8 +265,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16711314}
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -6.67, y: -0.21, z: 2.55}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalPosition: {x: -6, y: -0.25, z: 2.75}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children: []
   m_Father: {fileID: 2040221731}
   m_RootOrder: 1
@@ -332,6 +336,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  hitEffect: {fileID: 2056586466067654810, guid: 26b16430dc16cfc43a46ff00e14a0393, type: 3}
+  goodEffect: {fileID: 9031509782495498579, guid: a986d1586b075e441a984272ca385435, type: 3}
+  perfectEffect: {fileID: 5268398315166762242, guid: d94fb1dc39d71c847a03ea2788ac1447, type: 3}
+  missEffect: {fileID: 3867264448692532887, guid: 2852e97c80a83af4da43f038600700d9, type: 3}
 --- !u!65 &16711318
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -372,8 +380,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28156574}
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -8.63, y: -0.21, z: 2.55}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalPosition: {x: -8, y: -0.25, z: 2.75}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children: []
   m_Father: {fileID: 2040221731}
   m_RootOrder: 3
@@ -443,6 +451,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  hitEffect: {fileID: 2056586466067654810, guid: 26b16430dc16cfc43a46ff00e14a0393, type: 3}
+  goodEffect: {fileID: 9031509782495498579, guid: a986d1586b075e441a984272ca385435, type: 3}
+  perfectEffect: {fileID: 5268398315166762242, guid: d94fb1dc39d71c847a03ea2788ac1447, type: 3}
+  missEffect: {fileID: 3867264448692532887, guid: 2852e97c80a83af4da43f038600700d9, type: 3}
 --- !u!65 &28156578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -484,7 +496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143446953}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.49, z: 2.881}
+  m_LocalPosition: {x: 0, y: -0.49, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 239506405}
@@ -595,6 +607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 216183698}
   - component: {fileID: 216183697}
+  - component: {fileID: 216183699}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -619,6 +632,8 @@ MonoBehaviour:
   beatScroller: {fileID: 2040221732}
   currentScore: 0
   scorePerNote: 100
+  scorePerGoodNote: 125
+  scorePerPerfectNote: 150
   scoreText: {fileID: 297355674}
   multiplierText: {fileID: 1034307049}
 --- !u!4 &216183698
@@ -635,6 +650,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &216183699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216183696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0986f41283cc3354b9518a2cfb8ce939, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 761168955}
 --- !u!1 &239506404
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,7 +687,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239506404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.59, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2097121892}
@@ -2007,8 +2035,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423231271}
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -5.634, y: -0.21, z: 2.55}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalPosition: {x: -5, y: -0.25, z: 2.75}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children: []
   m_Father: {fileID: 2040221731}
   m_RootOrder: 0
@@ -2078,6 +2106,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 274
+  hitEffect: {fileID: 2056586466067654810, guid: 26b16430dc16cfc43a46ff00e14a0393, type: 3}
+  goodEffect: {fileID: 9031509782495498579, guid: a986d1586b075e441a984272ca385435, type: 3}
+  perfectEffect: {fileID: 5268398315166762242, guid: d94fb1dc39d71c847a03ea2788ac1447, type: 3}
+  missEffect: {fileID: 3867264448692532887, guid: 2852e97c80a83af4da43f038600700d9, type: 3}
 --- !u!65 &1423231275
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2754,7 +2786,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143358883}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.49, z: 1.922}
+  m_LocalPosition: {x: 0, y: -0.49, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 239506405}
