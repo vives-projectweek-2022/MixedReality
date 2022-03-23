@@ -12,7 +12,8 @@ public class disableScript : MonoBehaviour
     public bool wasDown = false;
     public bool isDown = false;
     InputDevice device;
-    public XRController controller;
+    public XRController controller = null;
+    bool paused = false;
     //public GameObject camera;
     //private bool state = true;
     // Start is called before the first frame update
@@ -30,12 +31,22 @@ public class disableScript : MonoBehaviour
         //    //Debug.Log("set");
         //}
         wasDown = isDown;
-        bool buttonValue = false;
         device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.gripButton, out isDown);
-        if (ButtonDown())
+        if(ButtonDown())
         {
+            if(paused)
+            {
+                ResumeGame();
+                paused = !paused;
+            }
+            else
+            {
+                PauseGame();
+                paused = !paused;
+
+            }
             pauseMenu.SetActive(!pauseMenu.activeSelf);
-            //Debug.Log("pressed button");
+            Debug.Log("pressed button");
         }
 
         //Debug.Log("Update is called");
@@ -52,6 +63,15 @@ public class disableScript : MonoBehaviour
     public bool ButtonUp()
     {
         return wasDown && !isDown;
+    }
+
+    void PauseGame()
+    {
+        Time.timeScale = 0;
+    }
+    void ResumeGame()
+    {
+        Time.timeScale = 1;
     }
 
 }

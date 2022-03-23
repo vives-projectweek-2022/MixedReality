@@ -6,7 +6,6 @@ public class QuitGame : MonoBehaviour
 {
     public void QuitMe()
     {
-        Application.Quit();
-        Debug.Log("Bye bye");
+        UnityEditor.EditorApplication.isPlaying = false;
     }
 }
