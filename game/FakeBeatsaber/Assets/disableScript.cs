@@ -31,7 +31,7 @@ public class disableScript : MonoBehaviour
         //}
         wasDown = isDown;
         bool buttonValue = false;
-        device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.primaryButton, out isDown);
+        device.TryGetFeatureValue(UnityEngine.XR.CommonUsages.gripButton, out isDown);
         if (ButtonDown())
         {
             pauseMenu.SetActive(!pauseMenu.activeSelf);
