@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu_test.unity
+    guid: 049e196d32f49df47a6376b6e14ffb7e
+  - enabled: 1
     path: Assets/Scenes/beatsaber.unity
     guid: 30687de5caf77a949b29951b7765c50b
   m_configObjects:
