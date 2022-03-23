@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 8955738659742853022}
   - component: {fileID: 2424289551300719643}
   - component: {fileID: 1841223943895006008}
+  - component: {fileID: 4241109117727020178}
   m_Layer: 10
   m_Name: Red cube
   m_TagString: Despawner
@@ -215,5 +216,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0162b8ca5c8430646846f5314ee6af96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4241109117727020178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2807890689928739128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bf45629702530747af63c40b8b1a576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

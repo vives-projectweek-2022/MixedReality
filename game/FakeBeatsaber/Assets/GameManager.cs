@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     public AudioSource music;
     public bool playing;
+    public bool paused;
 
     public Arrow_Mover beatScroller;
 

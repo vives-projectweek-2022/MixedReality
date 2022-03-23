@@ -37,11 +37,15 @@ public class disableScript : MonoBehaviour
             if(paused)
             {
                 ResumeGame();
+                GameManager.instance.paused = false;
+                GameManager.instance.music.UnPause();
                 paused = !paused;
             }
             else
             {
                 PauseGame();
+                GameManager.instance.paused = true;
+                GameManager.instance.music.Pause();
                 paused = !paused;
 
             }

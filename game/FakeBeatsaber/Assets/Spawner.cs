@@ -21,7 +21,7 @@ public class Spawner : MonoBehaviour
     {
         if(beatScroller.hasStarted)
         {
-            if (timer > beat)
+            if (timer > beat && GameManager.instance.music.isPlaying)
             {
                 GameObject cube = Instantiate(cubes[Random.Range(0, 2)], points[Random.Range(0, 4)]);
                 cube.transform.localPosition = Vector3.zero;
@@ -31,6 +31,7 @@ public class Spawner : MonoBehaviour
             }
 
             timer += Time.deltaTime;
+           
         }
 
     }
