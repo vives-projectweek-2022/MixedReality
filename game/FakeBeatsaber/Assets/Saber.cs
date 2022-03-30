@@ -7,6 +7,7 @@ public class Saber : MonoBehaviour
 {
     public LayerMask layer;
     private Vector3 PreviousPos;
+    public Slicer Slicer;
     //private Vector3 offset = (0, 0, 1);
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,8 @@ public class Saber : MonoBehaviour
             if (Vector3.Angle(transform.position - PreviousPos, hit.transform.up) > 130)
             {
                 GameManager.instance.NoteHit();
+                Slicer.isTouched = true;
+
                 Destroy(hit.transform.gameObject);
             }
         }
