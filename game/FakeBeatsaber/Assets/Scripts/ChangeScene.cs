@@ -15,15 +15,27 @@ public class ChangeScene : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    public void frommenutosetting()
+    public void frommenutocontorls()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
-    public void fromsettingtomenu()
+    public void fromcontrolstomenu()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
+
+    public void frommenutoabout()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+    }
+
+    public void fromabouttomenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+    }
+
+
 
 
 }
