@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBePressed: 0
-  keyToPress: 274
+  keyToPress: 344
   hitEffect: {fileID: 2056586466067654810, guid: 26b16430dc16cfc43a46ff00e14a0393, type: 3}
   goodEffect: {fileID: 9031509782495498579, guid: a986d1586b075e441a984272ca385435, type: 3}
   perfectEffect: {fileID: 5268398315166762242, guid: d94fb1dc39d71c847a03ea2788ac1447, type: 3}
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBePressed: 0
-  keyToPress: 274
+  keyToPress: 344
   hitEffect: {fileID: 2056586466067654810, guid: 26b16430dc16cfc43a46ff00e14a0393, type: 3}
   goodEffect: {fileID: 9031509782495498579, guid: a986d1586b075e441a984272ca385435, type: 3}
   perfectEffect: {fileID: 5268398315166762242, guid: d94fb1dc39d71c847a03ea2788ac1447, type: 3}
@@ -450,7 +450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBePressed: 0
-  keyToPress: 274
+  keyToPress: 344
   hitEffect: {fileID: 2056586466067654810, guid: 26b16430dc16cfc43a46ff00e14a0393, type: 3}
   goodEffect: {fileID: 9031509782495498579, guid: a986d1586b075e441a984272ca385435, type: 3}
   perfectEffect: {fileID: 5268398315166762242, guid: d94fb1dc39d71c847a03ea2788ac1447, type: 3}
@@ -902,7 +902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Img: {fileID: 21300000, guid: ed2984e24d5df6f46a80ead6ad2964fa, type: 3}
   ImgPress: {fileID: 21300000, guid: 8f47ff751b3bdec48862adf0100c74fa, type: 3}
-  buttonPress: 275
+  buttonPress: 343
 --- !u!212 &143446956
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3707,7 +3707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBePressed: 0
-  keyToPress: 274
+  keyToPress: 344
   hitEffect: {fileID: 2056586466067654810, guid: 26b16430dc16cfc43a46ff00e14a0393, type: 3}
   goodEffect: {fileID: 9031509782495498579, guid: a986d1586b075e441a984272ca385435, type: 3}
   perfectEffect: {fileID: 5268398315166762242, guid: d94fb1dc39d71c847a03ea2788ac1447, type: 3}
@@ -3866,7 +3866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Img: {fileID: 21300000, guid: 1bbda9210988dfd4db252a09838d254f, type: 3}
   ImgPress: {fileID: 21300000, guid: cacc39dd2a4e88a43aadeddd73e9b1e2, type: 3}
-  buttonPress: 273
+  buttonPress: 342
 --- !u!212 &1563069996
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5004,7 +5004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Img: {fileID: 21300000, guid: ad187f74f2d0cc4499f39a0267b9eda8, type: 3}
   ImgPress: {fileID: 21300000, guid: 18bf226de2d59284e904c26430f659c9, type: 3}
-  buttonPress: 276
+  buttonPress: 345
 --- !u!212 &2097121894
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5269,7 +5269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Img: {fileID: 21300000, guid: c3c13b1f8baa5dd4a86d3dc186668178, type: 3}
   ImgPress: {fileID: 21300000, guid: 2d10ec486261df445b73774ff82f1b69, type: 3}
-  buttonPress: 274
+  buttonPress: 344
 --- !u!212 &2143358886
 SpriteRenderer:
   m_ObjectHideFlags: 0
