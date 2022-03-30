@@ -2996,7 +2996,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 822283018}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 1.0000001
   m_Height: 1
   m_Direction: 1
@@ -3013,7 +3013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17919a1f0252e774da425b05b08e9430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialAfterSlice: {fileID: 0}
+  materialAfterSlice: {fileID: 2100000, guid: 4dd0126a53e654048a52a63837d3ef91, type: 2}
   sliceMask:
     serializedVersion: 2
     m_Bits: 256
@@ -4629,7 +4629,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 1580675186}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 1.0000001
   m_Height: 1
   m_Direction: 1
@@ -4646,7 +4646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17919a1f0252e774da425b05b08e9430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialAfterSlice: {fileID: 0}
+  materialAfterSlice: {fileID: 2100000, guid: 4dd0126a53e654048a52a63837d3ef91, type: 2}
   sliceMask:
     serializedVersion: 2
     m_Bits: 256

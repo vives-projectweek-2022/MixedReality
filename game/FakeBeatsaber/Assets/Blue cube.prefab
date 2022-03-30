@@ -59,6 +59,18 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2685070854963990178, guid: 36430e9f06da85747ad142cae1d855f7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685070854963990178, guid: 36430e9f06da85747ad142cae1d855f7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2685070854963990178, guid: 36430e9f06da85747ad142cae1d855f7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 2807890689928739128, guid: 36430e9f06da85747ad142cae1d855f7, type: 3}
       propertyPath: m_Name
       value: Blue cube
@@ -75,6 +87,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4dd0126a53e654048a52a63837d3ef91, type: 2}
+    - target: {fileID: 8264289716774310680, guid: 36430e9f06da85747ad142cae1d855f7, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264289716774310680, guid: 36430e9f06da85747ad142cae1d855f7, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8264289716774310680, guid: 36430e9f06da85747ad142cae1d855f7, type: 3}
+      propertyPath: m_Size.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8955738659742853022, guid: 36430e9f06da85747ad142cae1d855f7, type: 3}
       propertyPath: m_IsTrigger
       value: 0
