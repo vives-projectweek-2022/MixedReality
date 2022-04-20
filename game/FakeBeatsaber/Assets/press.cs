@@ -15,21 +15,9 @@ public class press : MonoBehaviour
 
     public KeyCode buttonPress;
 
-    void Awake()
-    {
-        controls = new DancePadControls();
-
-        controls.Gameplay.Left.performed += ctx => Press();
-    }
-
     void Start()
     {
         theSR = GetComponent<SpriteRenderer>();
-    }
-
-    void Press()
-    {
-        theSR.sprite = ImgPress;
     }
 
     // Update is called once per frame
@@ -44,15 +32,9 @@ public class press : MonoBehaviour
         {
             theSR.sprite = Img;
         }
-    }
-
-    private void OnEnable()
-    {
-        controls.Gameplay.Enable();
-    }
-
-    private void OnDisable()
-    {
-        controls.Gameplay.Disable();
+        if (Input.GetKeyDown("joystick button 13"))
+        {
+            Debug.Log("Dance pad key was pressed");
+        }
     }
 }
