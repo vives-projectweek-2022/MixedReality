@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public bool paused;
 
     public Arrow_Mover beatScroller;
+    public bool startCubeSpawner = false;
 
     public static GameManager instance;
 
@@ -38,7 +39,7 @@ public class GameManager : MonoBehaviour
     {
         if (!playing)
         {
-            if(Input.anyKeyDown)
+            if (Input.anyKeyDown)
             {
                 playing = true;
                 beatScroller.hasStarted = true;
