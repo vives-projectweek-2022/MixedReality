@@ -45,8 +45,8 @@ de makers van de game
 ## The game itself
 Het spel zelf is opgebouwd in twee stukken:
 - het stuk met beatsaber elementen.
-- het stuk met DDr elementen.
+- het stuk met DDR elementen.
 
-Er zijn twee tutorial levels voor elk aspect van de game,
-daarna zijn de levels met beide aspecten van de game, in orde van makkelijk naar moeilijk.
+Er is een tutorial levels voor de game die eerst één aspect van de game toont en daarna de ander,
+daarna volgen er levels van de game, in orde van makkelijk naar moeilijk.
 
