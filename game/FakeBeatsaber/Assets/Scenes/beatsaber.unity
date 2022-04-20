@@ -1013,7 +1013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fe7cb7d5aee8bb4d871721d78692458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  music: {fileID: 0}
+  music: {fileID: 838674061}
   playing: 0
   paused: 0
   beatScroller: {fileID: 2040221732}
