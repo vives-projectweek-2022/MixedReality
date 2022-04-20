@@ -40,7 +40,7 @@ de makers van de game
 
 - controls: hier kan de speler zien welke inputs gebruikt worden gebruikt in het spel.
 
--levels: hier kan de speler kiezen welk level hij wil spelen.
+- levels: hier kan de speler kiezen welk level hij wil spelen.
 
 ## The game itself
 Het spel zelf is opgebouwd in twee stukken:
