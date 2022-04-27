@@ -1,0 +1,94 @@
+{
+    "name": "DancePadControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "df791aed-3823-43c8-9aa4-cfa0eef3a8b2",
+            "actions": [
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "03abafcd-a5dc-40fd-a757-41b8a3e7e70e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "ea58a039-1cf7-4e68-9c45-76520fb71748",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Up",
+                    "type": "Button",
+                    "id": "c9785316-5006-41d0-8558-dfc6c1ac5496",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Down",
+                    "type": "Button",
+                    "id": "ba9150df-b91b-4582-8b6b-f80bb074434e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a730277d-ab8b-4dcf-8311-e67b2bb70847",
+                    "path": "<HID::mayflash limited MAYFLASH GameCube Controller Adapter>/button13",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ccf72221-0ddc-42cb-88b8-62e3202d0e3e",
+                    "path": "<HID::mayflash limited MAYFLASH GameCube Controller Adapter>/button15",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3b3eaca8-3888-4857-933d-a63db53ef953",
+                    "path": "<HID::mayflash limited MAYFLASH GameCube Controller Adapter>/button12",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "afe9900e-7520-4fb8-8b2f-a54b14801156",
+                    "path": "<HID::mayflash limited MAYFLASH GameCube Controller Adapter>/button14",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
