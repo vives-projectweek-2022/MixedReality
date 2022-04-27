@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,8 +21,8 @@ public class GameManager : MonoBehaviour
     public int scorePerGoodNote = 125;
     public int scorePerPerfectNote = 150;
 
-    public TextMesh scoreText;
-    public TextMesh multiplierText;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI multiplierText;
 
     private int currentMultiplier = 1;
     private int multiplierTracker = 0;

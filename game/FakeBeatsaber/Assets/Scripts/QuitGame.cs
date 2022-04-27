@@ -6,6 +6,6 @@ public class QuitGame : MonoBehaviour
 {
     public void QuitMe()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
     }
 }

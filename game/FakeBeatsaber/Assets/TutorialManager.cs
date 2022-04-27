@@ -32,6 +32,7 @@ public class TutorialManager : MonoBehaviour
 
         if(popUpIndex == 0)
         {
+            Time.timeScale = 0;
             if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
                 GameManager.instance.beatScroller.hasStarted = true;
