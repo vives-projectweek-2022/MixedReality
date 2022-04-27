@@ -112,7 +112,7 @@ Second time showing our game to the teachers. Skybox updated, ground plane got a
 
 ## 27/04/22 
 
-Put the game on steam and made sure it worked with the computer from school. 
+Put the game on steam and made sure it worked with the computer from school. The game got some finetuning.
 
  
 
