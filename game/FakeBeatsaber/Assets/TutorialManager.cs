@@ -67,4 +67,9 @@ public class TutorialManager : MonoBehaviour
         }
         //Debug.Log(popUpIndex);
     }
+
+    void Continue()
+    {
+        Time.timeScale = 1;
+    }
 }
