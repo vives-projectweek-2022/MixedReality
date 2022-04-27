@@ -70,55 +70,55 @@ The game itself consists of the following pieces:
 
 There are tutorial levels for each aspect of the game shown, after that the game has levels that go from easy to hard. 
 
-#Progress 
+# Progress 
 
  
 
-##23/02/22 
+## 23/02/22 
 
 Pitching our idea to the teachers. Feeling how the VR headset works and make a simple game implementing VR. 
 
  
 
-##9/03/22 
+## 9/03/22 
 
 The very start of our game. Implementation for the sabers, cutting of blocks and simple models were made. Camera implemented that ended up scrapped. 
 
  
 
-##16/03/22 
+## 16/03/22 
 
 First time showing our game to the teachers. Beta menu implemented. First music and sounds also added to the game. A score and multiplier for the score was also implemented. First time working with the dance pad. 
 
  
 
-##23/03/22 
+## 23/03/22 
 
 The DDR-aspect of the game is implemented. The incoming blocks have gotten a visual improvement. Lots of bug fixes. 
 
  
 
-##30/03/22 
+## 30/03/22 
 
 Menu improved with a setting and levels menu and a visual upgrade. It also works now. Skybox added, sabers obtained a new model and background models added. 
 
  
 
-##20/04/22 
+## 20/04/22 
 
 Second time showing our game to the teachers. Skybox updated, ground plane got a texture, DDR symbols got a new texture. Added a second level that is DDR only. 
 
  
 
-##27/04/22 
+## 27/04/22 
 
 Put the game on steam and made sure it worked with the computer from school. 
 
  
 
-#Screenshots 
+# Screenshots 
 
-##Menu 
+## Menu 
 
 
 
