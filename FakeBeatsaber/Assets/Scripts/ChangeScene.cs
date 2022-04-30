@@ -25,6 +25,16 @@ public class ChangeScene : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    public void fromlevelstoextra()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void fromextratomenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 7);
+        Time.timeScale = 1;
+    }
     public void fromlevelstoonlybeat()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
@@ -66,8 +76,5 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
     }
-
-
-
 
 }
