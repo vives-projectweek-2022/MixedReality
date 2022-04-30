@@ -23,10 +23,11 @@ public class Saber : MonoBehaviour
         {
             if (Vector3.Angle(transform.position - PreviousPos, hit.transform.up) > 130)
             {
-                GameManager.instance.NoteHit();
                 Slicer.isTouched = true;
 
                 Destroy(hit.transform.gameObject);
+                GameManager.instance.NormalHit();
+
             }
         }
         PreviousPos = transform.position;

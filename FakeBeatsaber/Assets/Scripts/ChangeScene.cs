@@ -5,13 +5,45 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public void PlayGame()
+    public void frommenutolevels()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
     }
     public void returntomenu()
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
+        Time.timeScale = 1;
+    }
+
+    public void fromlevelstonormal()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
+    }
+    public void fromnormaltomenu()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        Time.timeScale = 1;
+    }
+
+    public void fromlevelstoonlybeat()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+    }
+
+    public void fromonlybeattomenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+        Time.timeScale = 1;
+    }
+
+    public void fromlevelstoonlyddr()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
+    public void fromonlyddrtomenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
         Time.timeScale = 1;
     }
 
