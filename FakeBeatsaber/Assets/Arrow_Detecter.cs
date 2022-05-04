@@ -23,32 +23,35 @@ public class Arrow_Detecter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(keyToPress))
+        if(!GameManager.instance.paused)
         {
-            if (canBePressed)
+            if (Input.GetKeyDown(keyToPress))
             {
-                gameObject.SetActive(false);
-
-                //GameManager.instance.NoteHit();
-
-                if(Mathf.Abs(transform.position.x) > 2.25f)
+                if (canBePressed)
                 {
-                    Debug.Log("Normal hit");
-                    GameManager.instance.NormalHit();
-                    Instantiate(hitEffect, transform.position, hitEffect.transform.rotation);
-                }
-                else if(Mathf.Abs(transform.position.x) > 2.05f)
-                {
-                    Debug.Log("Good hit");
-                    GameManager.instance.GoodHit();
-                    Instantiate(goodEffect, transform.position, goodEffect.transform.rotation);
-                }
-                else
-                {
-                    Debug.Log("Perfect hit");
-                    GameManager.instance.PerfectHit();
-                    Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation);
+                    gameObject.SetActive(false);
 
+                    //GameManager.instance.NoteHit();
+
+                    if (Mathf.Abs(transform.position.x) > 2.25f)
+                    {
+                        Debug.Log("Normal hit");
+                        GameManager.instance.NormalHit();
+                        Instantiate(hitEffect, transform.position, hitEffect.transform.rotation);
+                    }
+                    else if (Mathf.Abs(transform.position.x) > 2.05f)
+                    {
+                        Debug.Log("Good hit");
+                        GameManager.instance.GoodHit();
+                        Instantiate(goodEffect, transform.position, goodEffect.transform.rotation);
+                    }
+                    else
+                    {
+                        Debug.Log("Perfect hit");
+                        GameManager.instance.PerfectHit();
+                        Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation);
+
+                    }
                 }
             }
         }

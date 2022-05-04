@@ -18,19 +18,21 @@ public class Saber : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, 1f, layer))
+        if(!GameManager.instance.paused)
         {
-            if (Vector3.Angle(transform.position - PreviousPos, hit.transform.up) > 130)
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, transform.forward, out hit, 1f, layer))
             {
-                Slicer.isTouched = true;
+                if (Vector3.Angle(transform.position - PreviousPos, hit.transform.up) > 130)
+                {
+                    Slicer.isTouched = true;
 
-                Destroy(hit.transform.gameObject);
-                GameManager.instance.NormalHit();
+                    Destroy(hit.transform.gameObject);
+                    GameManager.instance.NormalHit();
 
+                }
             }
+            PreviousPos = transform.position;
         }
-        PreviousPos = transform.position;
-        
     }
 }

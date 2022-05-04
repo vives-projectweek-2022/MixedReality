@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public bool startCubeSpawner = false;
 
     public static GameManager instance;
+    public GameObject gameOver;
 
     public int currentScore;
     public int scorePerNote = 100;
@@ -47,6 +48,10 @@ public class GameManager : MonoBehaviour
 
                 music.Play();
             }
+        }
+        if (!GameManager.instance.music.isPlaying && !GameManager.instance.paused)
+        {
+            gameOver.SetActive(true);
         }
     }
 
