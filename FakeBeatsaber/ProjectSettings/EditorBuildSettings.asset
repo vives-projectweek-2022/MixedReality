@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Sci-Fi Styled Modular Pack/Scenes/Levels_menu.unity
     guid: 6713cdf9310ee1d48bb20a42fbb2a75d
+  - enabled: 1
+    path: Assets/Sci-Fi Styled Modular Pack/Scenes/Level2.unity
+    guid: ca08a01165ccf394cace6739f4156665
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7af7fcd9e00642d4c9aec075e3f6f220, type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 5b98ae89142739044b8dd8c6dcf34a8e, type: 2}
