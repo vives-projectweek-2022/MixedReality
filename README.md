@@ -125,7 +125,7 @@ Put the game on steam and made sure it worked with the computer from school. The
  
 ## 4/05/22
 
-Final presentation. More finetuning.
+Final presentation. More finetuning. Making demo viedeo.
 
 # Screenshots 
 
