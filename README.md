@@ -1,4 +1,4 @@
-# MixedReality 
+# CircuitBreaker 
 
 Project Week 2022 Mixed Reality 
 
@@ -34,13 +34,23 @@ Project Week 2022 Mixed Reality
 
 ## Info 
 
-Index 
-
 Links of interest 
 
 - [intro to unity VR](https://www.youtube.com/watch?v=gGYtahQjmWQ&ab_channel=Valem) 
 
 - [how to make Beatsaber in 10 min in unity](https://www.youtube.com/watch?v=gh4k0Q1Pl7E&ab_channel=Valem) 
+
+- [ezy-slic tutorial](https://www.youtube.com/watch?v=iRW2CyQysdw&ab_channel=LandVR) 
+
+- [Menu Room visuals](https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913#description)
+
+- [Menu lighting/skybox](https://assetstore.unity.com/packages/2d/textures-materials/sky/sky5x-one-6332#description)
+
+- [How to make a simple menu](https://learn.unity.com/tutorial/creating-a-vr-menu-2019-2)
+
+- [Gamepad tester](https://gamepad-tester.com/)
+
+- [Music](https://www.youtube.com/channel/UCSZXFhRIx6b0dFX3xS8L1yQ)
 
 # Intro 
 
@@ -52,7 +62,7 @@ Links of interest
 
 ## The Hub 
 
-The hub of the main menu is divided in these sections: 
+The hub/the main menu is divided in these sections: 
 
 -  About: here the player can see more information about the game, for example: the creators of the game and more. 
 
@@ -68,11 +78,9 @@ The game itself consists of the following pieces:
 
 -  A part using DDR elements. 
 
-There are tutorial levels for each aspect of the game shown, after that the game has levels that go from easy to hard. 
+In the menu the controls are explained under the controls scene. There are multiple levels one easy ddr & saber level, then one DDR only and Saber only, then a saber & ddr hard level. 
 
 # Progress 
-
- 
 
 ## 23/02/22 
 
