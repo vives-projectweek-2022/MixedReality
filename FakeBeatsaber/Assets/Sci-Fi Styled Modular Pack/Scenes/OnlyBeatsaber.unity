@@ -2658,7 +2658,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124975460}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.99, y: 1.75, z: 1.1}
+  m_LocalPosition: {x: -1.5, y: 1.75, z: 1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 88353772}
@@ -2909,9 +2909,9 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_ValidColorGradient:
     serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 0}
-    key1: {r: 1, g: 1, b: 1, a: 0}
-    key2: {r: 0, g: 0, b: 0, a: 0}
+    key0: {r: 1, g: 0.20435655, b: 0.0047169924, a: 0}
+    key1: {r: 1, g: 0.20435655, b: 0.0047169924, a: 0}
+    key2: {r: 0, g: 0, b: 0, a: 1}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
@@ -2927,7 +2927,7 @@ MonoBehaviour:
     ctime7: 0
     atime0: 0
     atime1: 65535
-    atime2: 0
+    atime2: 65535
     atime3: 0
     atime4: 0
     atime5: 0
@@ -5051,7 +5051,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1290207310}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -5359,8 +5359,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_ValidColorGradient:
     serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
+    key0: {r: 1, g: 1, b: 1, a: 0}
+    key1: {r: 1, g: 1, b: 1, a: 0}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}

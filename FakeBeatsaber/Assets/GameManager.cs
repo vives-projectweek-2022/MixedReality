@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
                 music.Play();
             }
         }
-        if (!GameManager.instance.music.isPlaying && !GameManager.instance.paused)
+        if ((!GameManager.instance.music.isPlaying) && (!GameManager.instance.paused) && (beatScroller.hasStarted))
         {
             gameOver.SetActive(true);
         }
