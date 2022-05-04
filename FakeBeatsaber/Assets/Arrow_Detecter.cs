@@ -31,13 +31,13 @@ public class Arrow_Detecter : MonoBehaviour
 
                 //GameManager.instance.NoteHit();
 
-                if(Mathf.Abs(transform.position.x) > 0.25f)
+                if(Mathf.Abs(transform.position.x) > 2.25f)
                 {
                     Debug.Log("Normal hit");
                     GameManager.instance.NormalHit();
                     Instantiate(hitEffect, transform.position, hitEffect.transform.rotation);
                 }
-                else if(Mathf.Abs(transform.position.x) > 0.05f)
+                else if(Mathf.Abs(transform.position.x) > 2.05f)
                 {
                     Debug.Log("Good hit");
                     GameManager.instance.GoodHit();
