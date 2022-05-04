@@ -115,6 +115,9 @@ Second time showing our game to the teachers. Skybox updated, ground plane got a
 Put the game on steam and made sure it worked with the computer from school. The game got some finetuning.
 
  
+## 4/05/22
+
+Final presentation. More finetuning.
 
 # Screenshots 
 
